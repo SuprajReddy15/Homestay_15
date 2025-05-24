@@ -1,0 +1,142 @@
+.signup-container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 350px;
+    overflow: hidden;
+    max-width: 900px;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.form-container {
+    padding: 40px;
+    flex: 1;
+}
+
+.form-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-input:focus {
+    background-color: rgb(186, 212, 241);
+}
+
+.form-message {
+    color: red;
+    font-size: 12px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    grid-column: span 2;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.form-button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+    text-align: center;
+    color: #fff;
+}
+
+.btn.sign-up {
+    background-color: #28a745;
+}
+
+.btn.sign-up:hover {
+    background-color: #218838;
+}
+
+.btn.back-to-login {
+    background-color: #007bff;
+    text-decoration: none;
+}
+
+.btn.back-to-login:hover {
+    background-color: #0056b3;
+}
+
+.sign-in-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+    grid-column: span 2;
+}
+
+.sign-in-link a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.sign-in-link a:hover {
+    color: #0056b3;
+}
+
+.image-container {
+    flex: 1;
+    background-color: rgb(186, 212, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.profile-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #444;
+    font-weight: bold;
+}

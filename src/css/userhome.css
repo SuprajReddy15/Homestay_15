@@ -1,0 +1,94 @@
+/* Notification Icon */
+ion-icon[name="notifications-outline"] {
+    font-size: 1.85rem;
+    color: var(--gray-100);
+  }
+  
+  /* Dropdown css */
+  .dropdown-wrapper {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    display: none; /* Hide the checkbox */
+  }
+  
+  /* 
+    Image Source
+      - www.pexels.com
+      - https://www.pexels.com/photo/woman-wearing-black-spaghetti-strap-top-415829/
+  */
+  .dropdown-label {
+    height: 3rem;
+    width: 3rem;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    background-image: url("https://d39qlo6vcf2ui2.cloudfront.net/codepen/profile-drop-down/pexels-pixabay-415829.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 6rem;
+    left: -8rem;
+    padding: 1rem 0rem;
+    color: var(--gray-100);
+    background-color: var(--gray-900);
+    border-radius: 5px;
+  }
+  
+  .upper-triangle {
+    position: absolute;
+    right: 30%;
+    top: -0.75rem;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent; /* Left border */
+    border-right: 12px solid transparent; /* Right border */
+    border-bottom: 12px solid var(--gray-900); /* Bottom border */
+  }
+  
+  /* Toogle dropdown menu */
+  .dropdown-menu--display {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.76);
+  }
+  
+  .dropdown-toggle:checked + .dropdown-label + .dropdown-menu--display {
+    display: block;
+  }
+  
+  /* Dropdown list */
+  .dropdown-list-icon {
+    font-size: 1rem;
+  }
+  
+  .dropdown-list {
+    list-style-type: none;
+    width: 12rem;
+  }
+  
+  .dropdown-list > li {
+    padding: 1.25rem 1rem;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: all 100ms ease-in-out;
+  }
+  
+  .dropdown-list > li:hover {
+    border-left: 5px solid var(--emerald-500);
+    background-color: var(--gray-800);
+  }
+  
+  .dropdown-list > li > span {
+    font-size: 1rem;
+  }
+  

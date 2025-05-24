@@ -1,0 +1,131 @@
+.footer {
+    background: linear-gradient(135deg, #292424,#04616E);
+    color: #ffffff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 2px solid #000000a1; /* Cement-colored line */
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.footer-logo .logo {
+    max-width: 170px;
+    margin-bottom: 10px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #cccccc;
+    padding-bottom: 10px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.footer-column p,
+.footer-column ul li {
+    font-size: 14px;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.footer-column ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-column ul li svg {
+    margin-right: 8px;
+    color: #cccccc;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #417ae4;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.subscribe-form input {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+.subscribe-form button {
+    background-color: #3a75e4;
+    border: none;
+    padding: 8px 16px;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.subscribe-form button svg {
+    margin-left: 5px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #fffbfb;
+    margin-top: 20px;
+}
+
+.footer-heading {
+    font-size: 18px;
+    color: #cccccc;
+    margin-bottom: 8px; /* Space between heading and first line */
+    font-family: 'Verdana', sans-serif;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.footer-heading::after {
+    content: "";
+    display: block;
+    width: 25%; /* Shorter line */
+    height: 1px;
+    background-color: #000000d3;
+    margin-top: 10px;
+}
+.pp{
+    color: #fffbfb;
+}
